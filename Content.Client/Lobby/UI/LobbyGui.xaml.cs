@@ -6,6 +6,9 @@ using Robust.Client.Console;
 using Robust.Client.State;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.XAML;
+using System.Numerics;
+using Content.AL.UIKit.Styleboxes;
+using Robust.Client.Graphics;
 
 namespace Content.Client.Lobby.UI
 {
@@ -18,9 +21,29 @@ namespace Content.Client.Lobby.UI
         {
             RobustXamlLoader.Load(this);
             IoCManager.InjectDependencies(this);
+
             SetAnchorPreset(MainContainer, LayoutPreset.Wide);
             SetAnchorPreset(Background, LayoutPreset.Wide);
 
+            // 👇 ADD THIS BLOCK HERE
+            var baseBox = new StyleBoxFlat
+            {
+                BackgroundColor = Color.FromHex("#1A1A1AEE"),
+                BorderColor = Color.FromHex("#D6B36A"),
+                BorderThickness = new Thickness(2),
+                ContentMarginLeftOverride = 8,
+                ContentMarginRightOverride = 8,
+                ContentMarginTopOverride = 8,
+                ContentMarginBottomOverride = 8,
+            };
+
+            RightSide.PanelOverride = new StyleboxExtruded(
+                baseBox,
+                new Vector2(4, 4),
+                modulate: Color.FromHex("#050505AA")
+            );
+
+            // existing code
             LobbySong.SetMarkup(Loc.GetString("lobby-state-song-no-song-text"));
             LobbyBackground.SetMarkup(Loc.GetString("lobby-state-background-no-background-text"));
 
