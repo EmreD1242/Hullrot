@@ -55,6 +55,7 @@
   description: If you can see this you're probably dead!
   abstract: true
   components:
+  - type: ProjectilePhasePrevent
   - type: Reflective
   - type: Clickable
   - type: Sprite

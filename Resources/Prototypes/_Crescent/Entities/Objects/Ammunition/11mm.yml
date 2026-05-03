@@ -54,6 +54,7 @@
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
+  - type: ProjectilePhasePrevent
   - type: Projectile
     damage:
       types:

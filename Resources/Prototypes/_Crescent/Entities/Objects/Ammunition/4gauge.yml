@@ -61,6 +61,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
+  - type: ProjectilePhasePrevent
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: buckshot
@@ -106,6 +107,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
+  - type: ProjectilePhasePrevent
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: slug
@@ -147,6 +149,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
+  - type: ProjectilePhasePrevent
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: buckshot
@@ -200,6 +203,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBulletTrigger
   components:
+  - type: ProjectilePhasePrevent
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: slug
@@ -245,6 +249,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
+  - type: ProjectilePhasePrevent
   - type: ExpendableHeatTracked
     toggleDelay: 40
   - type: CanBeHeatTracked

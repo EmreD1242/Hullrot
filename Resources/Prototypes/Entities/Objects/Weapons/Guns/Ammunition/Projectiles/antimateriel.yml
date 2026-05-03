@@ -4,6 +4,7 @@
   id: BulletAntiMateriel
   name: bullet (15.2×169mm)
   components:
+  - type: ProjectilePhasePrevent
   - type: Projectile
     damage:
       types:
@@ -18,6 +19,7 @@
   id: BulletAntiMaterielUranium
   name: bullet (15.2×169mm AP-DU)
   components:
+  - type: ProjectilePhasePrevent
   - type: Projectile
     damage:
       types:
@@ -32,6 +34,7 @@
   id: BulletAntiMaterielIncendiary
   name: bullet (15.2×169mm incendiary)
   components:
+  - type: ProjectilePhasePrevent
   - type: Projectile
     damage:
       types:
@@ -50,6 +53,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
+  - type: ProjectilePhasePrevent
   - type: Projectile
     damage:
       types:

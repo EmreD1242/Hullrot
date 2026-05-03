@@ -4,6 +4,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
+  - type: ProjectilePhasePrevent
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: slug
@@ -18,6 +19,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
+  - type: ProjectilePhasePrevent
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: buckshot
@@ -34,6 +36,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
+  - type: ProjectilePhasePrevent
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: buckshot
@@ -58,6 +61,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBulletIncendiary
   components:
+  - type: ProjectilePhasePrevent
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: buckshot-flare
@@ -85,6 +89,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBulletPractice
   components:
+  - type: ProjectilePhasePrevent
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: buckshot
@@ -109,6 +114,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
+  - type: ProjectilePhasePrevent
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: shard
@@ -134,6 +140,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBulletPractice
   components:
+  - type: ProjectilePhasePrevent
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: buckshot
@@ -162,6 +169,7 @@
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
+  - type: ProjectilePhasePrevent
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: buckshot-flare
@@ -190,6 +198,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
+  - type: ProjectilePhasePrevent
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: depleted-uranium
@@ -215,6 +224,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
+  - type: ProjectilePhasePrevent
   - type: Sprite
     noRot: false
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
@@ -243,6 +253,7 @@
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
+  - type: ProjectilePhasePrevent
   - type: Sprite
     noRot: false
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
@@ -273,6 +284,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
+  - type: ProjectilePhasePrevent
   - type: Sprite
     scale: 0.5, 0.5
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
@@ -298,6 +310,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
+  - type: ProjectilePhasePrevent
   - type: Sprite
     scale: 1.1, 1.1
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
@@ -323,6 +336,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
+  - type: ProjectilePhasePrevent
   - type: Sprite
     scale: 1.25, 1.25
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
@@ -347,6 +361,7 @@
   name: pellet (12g flare)
   categories: [ HideSpawnMenu ]
   components:
+  - type: ProjectilePhasePrevent
   - type: Physics
     bodyType: Dynamic
     fixedRotation: false
