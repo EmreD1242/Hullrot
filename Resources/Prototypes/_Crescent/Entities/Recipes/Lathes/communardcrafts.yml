@@ -603,7 +603,7 @@
     NanotrasenElectronics: 1500
 
 - type: latheRecipe
-  id: NCWLRGD55M13
+  id: RGD55M13Handgrenade
   result: RGD55M13Handgrenade
   completetime: 2
   materials:
