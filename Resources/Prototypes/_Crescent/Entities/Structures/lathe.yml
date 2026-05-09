@@ -267,8 +267,6 @@
       - VoiceTrigger
       - SignalTrigger
       - TimerTrigger
-      - EMPGrenadeElectronics
-      - GrenadeDSMG4Twistcap
       - DrumMagazineShotgunSlug
       - DrumMagazineShotgunEmpty
       - DrumMagazineShotgunBuck
@@ -817,6 +815,7 @@
       - KhanLPC
       - PerigaleLPC
       - RaiderLPC
+      - GrenadeDSMG4Twistcap
       # DSM end
       # NCWL start
       - ClothingHeadHelmetNCWLEVA
@@ -862,7 +861,10 @@
       - GargutLPC
       - SternLPC
       - BogatyrLPC
-      - SunderLPC
+      - ListerLPC
+      - PsoglavLPC
+      - ZorniyLPC
+      - StraznikLPC
       - WeaponSubMachineGunBloodhound
       - WeaponSubMachineGunMilitant
       - WeaponRifleNCWLBatanya
@@ -881,6 +883,8 @@
       - ClothingOuterHardsuitNCWLJuggernaut
       - NCWLKukri
       - ClothingBeltSheathNCWLKukri
+      - RGD55M13Handgrenade
+      - ZaryiaFlashbangHandgrenade
       # NCWL end
       - ClothingUniformJumpsuitExecutiveShinoharaSuit
       - ClothingUniformJumpsuitShinoharaLogistics
@@ -989,9 +993,12 @@
       - MusinyaneLPC
       - FleaLPC
       - FujinLPC
+      - MakoLPC
+      - OnryoLPC
       - MetempsychoticMachineCircuitboard
       - HardlinerFlatpack
       - PowerCageHardliner
+      - EMPGrenadeElectronics
       #fabdisk recipies
       - WeaponRifleM90GrenadeLauncherNT
       - WeaponSubMachineGunMP5NT

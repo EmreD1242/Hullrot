@@ -15,6 +15,10 @@
   - HindLPC
   - BogatyrLPC
   - KrechetLPC
+  - StraznikLPC
+  - ZorniyLPC
+  - ListerLPC
+  - PsoglavLPC
 
 # Tier 1
 - type: technology
@@ -99,6 +103,8 @@
   - WeaponSubMachineGunNCWLWatchdog
   - ClothingOuterHardsuitNCWLInfantry
   - WeaponShotgunDoubleBarreledNCWL
+  - RGD55M13Handgrenade
+  - ZaryiaFlashbangHandgrenade
 
 # - type: technology
 #   id: CommunardKrechet
