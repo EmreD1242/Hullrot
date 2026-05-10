@@ -45,3 +45,8 @@ chatsan-crescent-replacement-27 = love
 chatsan-crescent-word-28 = nigga
 chatsan-crescent-word-29 = niggas
 chatsan-crescent-word-30 = niggaz
+chatsan-crescent-word-31 = retard
+chatsan-crescent-replacement-31 = izdom
+chatsan-crescent-word-32 = retards
+chatsan-crescent-replacement-32 = izdomites
+
