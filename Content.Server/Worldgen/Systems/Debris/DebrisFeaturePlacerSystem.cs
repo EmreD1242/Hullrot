@@ -305,7 +305,7 @@ public sealed class DebrisFeaturePlacerSystem : BaseWorldSystem
             ownedEnt.LastKey = point;
         }
 
-        if (failures > 0)
+        if (failures > 10)
             _sawmill.Error($"Failed to place {failures} debris at chunk {args.Chunk} at coords {args.Coords}");
     }
 
