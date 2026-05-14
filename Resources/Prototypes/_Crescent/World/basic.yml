@@ -90,7 +90,7 @@
       prob: 0.5
   - type: NoiseRangeCarver
     ranges:
-    - 0.38, 0.62
+    - 0.37, 0.63
     noiseChannel: Carver
 
 - type: spaceBiome
@@ -239,7 +239,7 @@
       prob: 1
   - type: NoiseRangeCarver
     ranges:
-    - 0.38, 0.62
+    - 0.37, 0.63
     noiseChannel: Carver
 
 - type: spaceBiome
