@@ -1714,6 +1714,11 @@
     - ShipHull
     - ShipElectronics
     - ShipEngine
+    - HardpointSmallBallisticTurretCraft
+    - HardpointSmallEnergyTurretCraft
+    - HardpointSmallMissileTurretCraft
+    - HardpointSmallFixedCraft
+    - HardpointMediumFixedCraft
   - type: Anchorable
     flags:
     - Anchorable
