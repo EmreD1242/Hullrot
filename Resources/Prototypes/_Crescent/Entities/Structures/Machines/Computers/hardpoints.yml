@@ -94,7 +94,7 @@
     class: Ballistic
     size: Small
   - type: Anchorable
-    Delay: 10
+    delay: 10
   - type: Fixtures
     fixtures:
       fix1:
