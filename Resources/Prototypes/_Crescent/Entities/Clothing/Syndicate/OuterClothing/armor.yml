@@ -623,9 +623,9 @@
   description: A set of armor traditionally used in Kendo, repurposed for ballistic resistance. Bears the Cyberdawn colors.
   components:
   - type: Sprite
-    sprite: _Crescent/Clothing/Syndicate/OuterClothing/bogu.rsi
+    sprite: Nyanotrasen/Clothing/OuterClothing/Armor/bogu.rsi
   - type: Clothing
-    sprite: _Crescent/Clothing/Syndicate/OuterClothing/bogu.rsi
+    sprite: Nyanotrasen/Clothing/OuterClothing/Armor/bogu.rsi
   - type: ExtendDescription
     descriptionList:
       - description: This is a carrier vest, it will only provide mediocre protection on its own. Put an armor insert into it to fully utilize it.
