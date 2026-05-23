@@ -261,9 +261,9 @@
       - MagazineBoxImperialRifleBig
       - MagazineHeavyRifleSmall
       - CombatKnife
-      - ExplosivePayload
-      - FlashPayload
-      - ChemicalPayload
+      # - ExplosivePayload
+      # # - FlashPayload
+      # - ChemicalPayload
       - VoiceTrigger
       - SignalTrigger
       - TimerTrigger
