@@ -1614,7 +1614,7 @@
     contents: # A lot of stuff here, seems spammy.
     - id: ClothingUniformKendoHakama
       amount: 2
-    - id: ClothingOuterArmorKendoBogu
+    - id: ClothingOuterArmorKendoBoguCyberdawn
       amount: 2
     - id: ClothingHeadHelmetKendoMen
       amount: 2
