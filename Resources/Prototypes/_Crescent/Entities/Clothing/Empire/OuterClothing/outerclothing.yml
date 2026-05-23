@@ -694,7 +694,7 @@
   - type: ReverseEngineering # Sector Crescent
     difficulty: 2
     recipes:
-      - ClothingOuterCoatImperialRitter
+      # - ClothingOuterCoatImperialRitter
       - ClothingOuterHardsuitImperialWorker
 
 - type: entity

@@ -471,11 +471,11 @@
       - BoneGel
       - ParamedHypo
       - MothroachCubeBiochemical
-      - CowCubeBiochemical
-      - GoatCubeBiochemical
+      # - CowCubeBiochemical
+      # - GoatCubeBiochemical
       - CryostasisBeaker
       - SyringeCryostasis
-      - StasisBedMachineCircuitboardBiochemical
+      # - StasisBedMachineCircuitboardBiochemical
       - ClothingHandsGlovesNitrile
       - ClothingMaskSterile
       - Brutepack
@@ -610,9 +610,9 @@
       - ClothingMaskSyndicateFacemask
       - ClothingMaskBreathMedicalSecurity
       - ClothingOuterArmorSyndicateApron
-      - ClothingHeadHelmetSyndicateBasicInterdyne
-      - ClothingOuterArmorSyndicateArmorvestInterdyne
-      - ClothingBeltSyndicateWebbingInterdyne
+      # - ClothingHeadHelmetSyndicateBasicInterdyne
+      # - ClothingOuterArmorSyndicateArmorvestInterdyne
+      # - ClothingBeltSyndicateWebbingInterdyne
       - ClothingOuterHardsuitTraumasec
       # - ClothingOuterHardsuitCoordinator
       - ClothingUniformJumpsuitSyndicate #GSC clothing
