@@ -95515,7 +95515,7 @@ entities:
           priority: 0
           component: ClothingSpeedModifier
         title: null
-- proto: ClothingOuterHardsuitImperialKnight
+- proto: ClothingOuterHardsuitImperialSoldier
   entities:
   - uid: 379
     components:
