@@ -311,7 +311,7 @@
   parent: ClothingOuterHardsuitImperialSoldier
   id: ClothingOuterHardsuitImperialBanneret
   name: MECS Typ 1 'SABRE' Modified Hardsuit
-  description: A variation of the MECS Typ1 hardsuit designed to distinguish minor nobility on the battlefield. It's outfitted with pauldrons and a skirt, with some tasteful gold plating.
+  description: A variation of the MECS Typ 1 hardsuit designed to distinguish minor nobility on the battlefield. It's outfitted with pauldrons and a skirt, with some tasteful gold plating.
   components:
   - type: Sprite
     sprite: _Crescent/Clothing/Empire/OuterClothing/mandatebanneret.rsi
